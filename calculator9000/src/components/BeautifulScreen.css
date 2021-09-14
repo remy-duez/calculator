@@ -1,0 +1,25 @@
+.beautiful_screen{
+    height: 90px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px #b1b1b1;
+    width: 100%;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.result{
+    font-size: 35px;
+    margin-right: 15px;;
+}
+
+.calculation{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    color: #A5AAA3;
+}

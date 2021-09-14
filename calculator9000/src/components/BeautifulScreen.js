@@ -1,6 +1,7 @@
 import React from 'react';
+import "./BeautifulScreen.css";
 
-const BeautifullScreen = ({result, calculation}) => {
+const BeautifulScreen = ({result, calculation}) => {
     return (
         <div className="beautiful_screen">
             <h3 className="result">{result}</h3>
@@ -9,4 +10,4 @@ const BeautifullScreen = ({result, calculation}) => {
     );
 };
 
-export default BeautifullScreen;
+export default BeautifulScreen;

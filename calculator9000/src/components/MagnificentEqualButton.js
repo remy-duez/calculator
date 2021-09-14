@@ -1,4 +1,5 @@
 import React from 'react';
+import "./MagnificentEqualButton.css";
 
 const MagnificentEqualButton = ({operator, handleEqualClick}) => {
     return (

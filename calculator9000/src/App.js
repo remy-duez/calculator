@@ -1,9 +1,15 @@
 import './App.css';
+import TheTitle from './components/TheTitle';
+import Calculator from './pages/Calculator';
 
-function TheTitle() {
+function App() {
   return (
-    <h1>Calculator 9000</h1>
+    <div>
+      <TheTitle />
+      <Calculator/>
+    </div>
+    
   );
 }
 
-export default TheTitle;
+export default App;
