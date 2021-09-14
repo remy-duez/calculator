@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BeautifullScreen = (result, calc) => {
+const BeautifullScreen = ({result, calculation}) => {
     return (
         <div className="beautiful_screen">
-            <span className="result"></span>
-            <span className="calculation"></span>
+            <h3 className="result">{result}</h3>
+            <h4 className="calculation">{calculation}</h4>
         </div>
     );
 };

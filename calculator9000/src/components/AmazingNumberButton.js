@@ -1,16 +1,17 @@
 import React from 'react';
 
-function generateDigits(){
-    let digits = [];
-    for(let i=9; i>=0; i--){
-        digits.push(<button className="number_button" key={i}>{i}</button>);
-    }
-    return digits;
-}
+const AmazingNumberButton = ({number, handleClick}) => {
 
-const AmazingNumberButton = () => {
+    /*function generateDigits(){
+        let digits = [];
+        for(let i=9; i>=0; i--){
+            digits.push(<button className="number_button" key={i}>{i}</button>);
+        }
+        return digits;
+    }*/
+
     return (
-        <div className="number_buttons">{generateDigits()}</div>
+            <button className="number_button" onClick={() =>handleClick(number)}>{number}</button>
         );
 };
 

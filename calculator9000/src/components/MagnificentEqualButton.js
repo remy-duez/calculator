@@ -1,8 +1,8 @@
 import React from 'react';
 
-const MagnificentEqualButton = () => {
+const MagnificentEqualButton = ({operator, handleEqualClick}) => {
     return (
-        <button className="magnificent_equal_button">=</button>
+        <button className="magnificent_equal_button" onClick={() =>handleEqualClick(operator)}>=</button>
     );
 };
 
