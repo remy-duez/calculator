@@ -1,10 +1,10 @@
 import React from 'react';
 import "./TheTitle.css";
 
-const TheTitle = () => {
+const TheTitle = ({title}) => {
     return (
         <h1 className="title">
-            Calculator 9000
+            {title}
         </h1>
     );
 };

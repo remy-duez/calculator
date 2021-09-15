@@ -5,7 +5,7 @@ import Calculator from './pages/Calculator';
 function App() {
   return (
     <div>
-      <TheTitle />
+      <TheTitle title="Calculator 9000"/>
       <Calculator/>
     </div>
     
