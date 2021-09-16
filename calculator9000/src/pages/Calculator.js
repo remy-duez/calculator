@@ -18,7 +18,7 @@ const Calculator = () => {
   //we set the different states for calculation, result, and the over9000 trigger.
   const [calculation, setCalculation] = useState("");
   const [result, setResult] = useState("");
-  const [trigger, setTrigger] = useState("");
+  const [triggered, setTrigger] = useState("");
 
   //here, useEffect is used to watch the render of result and act accordingly
   useEffect(() => {
@@ -71,7 +71,7 @@ const Calculator = () => {
   return (
     <div className='calculator'>
       <BeautifulScreen result={result} calculation={calculation} />
-      <ItSOverNineThousand trigger={trigger}/>
+      <ItSOverNineThousand triggered={triggered}/>
       <div className='buttons'>
         <div className='row'>
           <AmazingNumberButton number='9' handleClick={addToCalculation} />
