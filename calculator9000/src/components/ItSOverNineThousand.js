@@ -1,9 +1,10 @@
 import React from 'react';
 
-const ItSOverNineThousand = ({trigger}) => {
+// function component that will display something when result is over 9000
+const ItSOverNineThousand = ({triggered}) => {
     return (
         <h3>
-            {trigger}
+            {triggered}
         </h3>
     );
 };
