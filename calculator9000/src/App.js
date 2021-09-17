@@ -9,7 +9,6 @@ function App() {
     <div>
       <TheTitle title="Calculator 9000"/>
       <Calculator/>
-      <SaveButton value="Save" />
     </div>
     
   );
